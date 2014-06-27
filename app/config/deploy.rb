@@ -14,6 +14,13 @@ set :scm,         :git
 set :branch,        "master"
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `subversion`, `mercurial`, `perforce`, or `none`
 
+#Agregado para prueba
+set :scm, :mercurial
+set :scm_username, "mloyolatirado"
+default_run_options:pty = true
+set :scm_prefer_prompt, :true
+set :scm_verbose, :true
+
 set :model_manager, "doctrine"
 # Or: `propel`
 
