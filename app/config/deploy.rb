@@ -8,8 +8,8 @@ set :use_sudo,      false
 ssh_options[:port] = 22123
 #set :php_bin,		"usr/bin/php" 
 
-set :repository,  "https://mloyolatirado@bitbucket.org/mloyolatirado/ecoin_frontend.git"
-set :scm,         :mercurial
+set :repository,  "https://github.com/mloyola/ecoin_frontend.git"
+set :scm,         :git
 set :branch,        "master"
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `subversion`, `mercurial`, `perforce`, or `none`
 
