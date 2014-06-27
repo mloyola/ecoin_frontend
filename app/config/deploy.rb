@@ -10,7 +10,7 @@ ssh_options[:port] = 22123
 
 #set :repository,  "https://github.com/mloyola/ecoin_frontend.git"
 set :repository,  "https://mloyolatirado@bitbucket.org/mloyolatirado/ecoin_frontend"
-set :scm,         :git
+#set :scm,         :git
 set :branch,        "master"
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `subversion`, `mercurial`, `perforce`, or `none`
 
